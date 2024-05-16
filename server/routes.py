@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request
-from models import User, Cohort, CohortMember, Post, Notification, Fundraiser, Advert, AdminNotification, ChatMessage
+from models import User, Cohort, CohortMember, Post, Notification, Fundraiser, Advert, AdminNotification, ChatMessage, ResetToken
 from datetime import datetime
 from flask_sqlalchemy import SQLAlchemy
 from models import db  

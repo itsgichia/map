@@ -1,0 +1,90 @@
+/* login.css */
+
+/* Overall layout */
+.login-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Form spaces background color */
+  }
+  
+  .login-form,
+  .signup-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .login-form {
+    margin-right: 2rem;
+  }
+  
+  .signup-form {
+    margin-left: 2rem;
+  }
+  
+  /* Input fields */
+  .input-field {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Labels */
+  .label {
+    font-weight: bold;
+    color: #333; /* Label text color */
+  }
+  
+  /* Inputs */
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #000000; /* Border color */
+    border-radius: 0.25rem;
+    outline: none;
+  }
+  
+  /* Error messages */
+  .error-message {
+    color: #ff0000;
+    font-size: 0.875rem;
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Additional styling */
+  .login-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
